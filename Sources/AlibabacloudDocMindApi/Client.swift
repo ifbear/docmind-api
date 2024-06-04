@@ -250,13 +250,13 @@ public class Client: AlibabacloudOpenApi.Client {
     //MARK: - getDocumentCompareResultAdvance
     
     @available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *)
-    public func getDocumentCompareResultAdvance(_ request: GetDocumentConvertResultAdvanceRequest) async throws -> SubmitDocumentConvertJobResponse {
+    public func getDocumentCompareResultAdvance(_ request: GetDocumentConvertResultAdvanceRequest) async throws -> GetDocumentConvertResultResponse {
         let runtime: TeaUtils.RuntimeOptions = TeaUtils.RuntimeOptions([:])
         return try await getDocumentCompareResultAdvance(request , runtime )
     }
     
     @available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *)
-    public func getDocumentCompareResultAdvance(_ request: GetDocumentConvertResultAdvanceRequest, _ runtime: TeaUtils.RuntimeOptions) async throws -> SubmitDocumentConvertJobResponse {
+    public func getDocumentCompareResultAdvance(_ request: GetDocumentConvertResultAdvanceRequest, _ runtime: TeaUtils.RuntimeOptions) async throws -> GetDocumentConvertResultResponse {
         try TeaUtils.Client.validateModel(request)
         var query: [String: Any] = [:]
         if (!TeaUtils.Client.isUnset(request.Id)) {
@@ -278,7 +278,7 @@ public class Client: AlibabacloudOpenApi.Client {
         ])
         
         let tmp: [String: Any] = try await callApi(params , req , runtime )
-        return Tea.TeaConverter.fromMap(SubmitDocumentConvertJobResponse(), tmp)
+        return Tea.TeaConverter.fromMap(GetDocumentConvertResultResponse(), tmp)
     }
 }
 
