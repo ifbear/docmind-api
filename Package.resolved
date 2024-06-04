@@ -1,0 +1,69 @@
+{
+  "originHash" : "04c050534021aace4893eb60524527a965321cf9e51512e865f97a7422cb218c",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "f455c2975872ccd2d9c81594c658af65716e9b9a",
+        "version" : "5.9.1"
+      }
+    },
+    {
+      "identity" : "credentials-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/aliyun/credentials-swift",
+      "state" : {
+        "revision" : "c6ca7e06b25edb58f33437971091cfaf5412d72d",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "cryptoswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/krzyzanowskim/CryptoSwift.git",
+      "state" : {
+        "revision" : "c9c3df6ab812de32bae61fc0cd1bf6d45170ebf0",
+        "version" : "1.8.2"
+      }
+    },
+    {
+      "identity" : "darabonba-openapi",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ifbear/darabonba-openapi.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "aa657624dd820bc9fe89cfd1ce154d06316c5679"
+      }
+    },
+    {
+      "identity" : "openapi-util",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ifbear/openapi-util",
+      "state" : {
+        "branch" : "master",
+        "revision" : "5bb9af30b59ed72d0b83650eba0e63fc9f726e84"
+      }
+    },
+    {
+      "identity" : "tea-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/aliyun/tea-swift.git",
+      "state" : {
+        "revision" : "a5bba9447809d568e49b1bd6547deaa635ca28f0",
+        "version" : "1.0.2"
+      }
+    },
+    {
+      "identity" : "tea-utils",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alibabacloud-sdk-swift/tea-utils",
+      "state" : {
+        "revision" : "efb7452c90dd6d11e1e003d98507a7359290cd91",
+        "version" : "1.0.5"
+      }
+    }
+  ],
+  "version" : 3
+}
